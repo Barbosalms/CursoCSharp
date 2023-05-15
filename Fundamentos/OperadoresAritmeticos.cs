@@ -16,7 +16,7 @@ namespace CursoCSharp.Fundamentos {
 
             Console.WriteLine("O resultado da soma de "+number1+" + "+number2+ " é igual a "+result);*/
 
-            Console.WriteLine("Informe a base do seu triângulo: ".);
+            Console.WriteLine("Informe a base do seu triângulo: ");
             int Base = int.Parse(Console.ReadLine());
             Console.WriteLine("Informe a altura do seu triângulo: ");
             int altura = int.Parse(Console.ReadLine());

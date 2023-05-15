@@ -13,7 +13,8 @@ namespace CursoCSharp {
                 {"Lendo Dados  - Fundamentos", LendoDados.Executar },   
                 {"Formatando Numeros  - Fundamentos", FormatandoNumeros.Executar },
                 {"Operadores Aritmetricos  - Fundamentos", OperadoresAritmeticos.Executar },
-                {"Exercício 1 - Fundamentos", Exercicios.Executar }
+                {"Exercício 1 - Fundamentos", Exercicios.Executar },
+                {"Exercício IF e ELSE - Fundamentos", ExercicoIfElse.Executar }
             });
 
             central.SelecionarEExecutar();

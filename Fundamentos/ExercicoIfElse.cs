@@ -95,11 +95,5 @@ namespace CursoCSharp.Fundamentos
             {
                 Console.WriteLine("Obesidade Grau |||");**/
             }
-
-
-
-
-
         }
     }
-}

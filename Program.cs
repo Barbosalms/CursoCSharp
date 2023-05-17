@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 
 using CursoCSharp.Fundamentos;
+using CursoCSharp.EstruturasDeControle;
 
 namespace CursoCSharp {
     class Program {
@@ -10,12 +11,15 @@ namespace CursoCSharp {
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Variaveis e Constantes - Fundamentos",VariaveisEConstantes.Executar },
                 {"Notação Ponto - Fundamentos ",NotacaoPonto.Executar },
-                {"Lendo Dados  - Fundamentos", LendoDados.Executar },   
+                {"Lendo Dados  - Fundamentos", LendoDados.Executar },
                 {"Formatando Numeros  - Fundamentos", FormatandoNumeros.Executar },
                 {"Operadores Aritmetricos  - Fundamentos", OperadoresAritmeticos.Executar },
                 {"Exercício 1 - Fundamentos", Exercicios.Executar },
-                {"Exercício IF e ELSE - Fundamentos", ExercicoIfElse.Executar }
-            });
+                {"Exercício IF e ELSE - Fundamentos", ExercicoIfElse.Executar },
+                {"Estrutura Switch - Estruturas de Controle", EstruturaSwitch.Executar},
+                {"Exercicio Switch - Estruturas de Controle", ExercicioSwitch.Executar},
+                {"Estrutura While e For - Estruturas de Controle", EstruturaWhileEFor.Executar}
+            }); ;
 
             central.SelecionarEExecutar();
         }

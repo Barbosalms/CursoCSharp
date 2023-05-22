@@ -21,8 +21,12 @@ namespace CursoCSharp.EstruturasDeControle
             while (i <= valor)
             {
                 Console.WriteLine(i);
-                i+=saltos;
+                i += saltos;
+
+
+
             }
         }
     }
 }
+

@@ -18,7 +18,9 @@ namespace CursoCSharp {
                 {"Exercício IF e ELSE - Fundamentos", ExercicoIfElse.Executar },
                 {"Estrutura Switch - Estruturas de Controle", EstruturaSwitch.Executar},
                 {"Exercicio Switch - Estruturas de Controle", ExercicioSwitch.Executar},
-                {"Estrutura While e For - Estruturas de Controle", EstruturaWhileEFor.Executar}
+                {"Estrutura While e For - Estruturas de Controle", EstruturaWhileEFor.Executar},
+                {"Exercicio While e For - Estruturas de Controle", ExercicioRepeticao.Executar},
+
             }); ;
 
             central.SelecionarEExecutar();

@@ -12,7 +12,7 @@ namespace CursoCSharp.EstruturasDeControle
         {
             Console.WriteLine("Avalie o meu atendimento com 1 a 5 ");
             int.TryParse(Console.ReadLine(), out int nota);
-
+            //&& = e || ou
             switch (nota) {
                 case 1:
                     Console.WriteLine("Péssimo");

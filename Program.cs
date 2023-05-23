@@ -22,7 +22,8 @@ namespace CursoCSharp {
                 {"Estrutura While e For - Estruturas de Controle", EstruturaWhileEFor.Executar},
                 {"Exercicio While e For - Estruturas de Controle", ExercicioRepeticao.Executar},
                 {"Estrutura Foreach - Estruturas de Controle", EstruturaForeach.Executar},
-                {"Classes e Metodos - Classes e Metodos", Membros.Executar}
+                {"Classes e Metodos - Classes e Metodos", Membros.Executar},
+                {"Construtor - Classes e Metodos", Construtor.Executar},
 
             }); ;
 

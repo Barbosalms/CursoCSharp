@@ -22,21 +22,38 @@ namespace CursoCSharp.ClassesEMetodos
             Sexo = sexo;
             Idade = idade;
         }
-    }
 
-    class Construtor
-    {
-        
-
-        public static void Executar()
+        /*criando construtor comum*/
+        public Cliente()
         {
-            var cliente1 = new Cliente();//new cliente() é um construtor, ele é padrão e não recebe parametro.
-            cliente1.Nome = "Luiz Iñácio";
-            cliente1.Cpf = "50564978962";
-            cliente1.Sexo = "M";
-            cliente1.Endereço = "Vila Pires";
-            cliente1.Idade = 66;
+
+
         }
 
+        class Construtor
+        {
+
+
+            public static void Executar()
+            {
+                var cliente1 = new Cliente();//new cliente() é um construtor, ele é padrão e não recebe parametro.
+                cliente1.Nome = "Luiz Iñácio";
+                cliente1.Cpf = "50564978962";
+                cliente1.Sexo = "M";
+                cliente1.Endereço = "Vila Pires";
+                cliente1.Idade = 66;
+
+                var cliente2 = new Cliente("Rogério", "5028399870", "M", "Ramiro Corleoni", 40);
+                var cliente3 = new Cliente()
+                {
+                    Nome = "Amanda",
+                    Sexo = "F",
+                    Endereço = "Av Portugal",
+                    Idade = 25
+
+                };
+                Console.WriteLine($"Olá {cliente1.Nome} você tem {cliente1.Idade} anos  ");
+            }
+        }
     }
 }

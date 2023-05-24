@@ -10,16 +10,20 @@ namespace CursoCSharp.ClassesEMetodos
     {
         class RealToDolar
         {
-            public double Converter(double real)
+            public double Converter()
             {
+                Console.WriteLine("Informe o valor para fazer a conversão: ");
+                double.TryParse(Console.ReadLine(), out double real);
                 return real * 4.95;
             }
         }
 
         class CelsiusToFahrenheit
         {
-            public double Converter(double celsius)
+            public double Converter()
             {
+                Console.WriteLine("Informe o valor para fazer a conversão de Celsius para Fahrenheit: ");
+                double.TryParse(Console.ReadLine(), out double celsius);
                 return celsius * 9/5 + 32;
             }
         }
@@ -27,12 +31,12 @@ namespace CursoCSharp.ClassesEMetodos
         public static void Executar()
         {
             /*var realtodolar = new RealToDolar();
-            var convert = realtodolar.Converter(5.5);
+            var convert = realtodolar.Converter();
             Console.WriteLine(convert.ToString("F1"));*/
             /*-----------------------------------------------------------*/
-            /*var celsiusToFahrenheit = new CelsiusToFahrenheit();
-            var convert = celsiusToFahrenheit.Converter(24.0);
-            Console.WriteLine(convert);*/
+            var celsiusToFahrenheit = new CelsiusToFahrenheit();
+            var convert = celsiusToFahrenheit.Converter();
+            Console.WriteLine(convert);
 
 
         }

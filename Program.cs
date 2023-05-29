@@ -23,8 +23,16 @@ namespace CursoCSharp {
                 {"Exercicio While e For - Estruturas de Controle", ExercicioRepeticao.Executar},
                 {"Estrutura Foreach - Estruturas de Controle", EstruturaForeach.Executar},
                 {"Classes e Metodos - Classes e Metodos", Membros.Executar},
-                {"Construtor - Classes e Metodos", MetodosComRetorno.Executar},
-                {"Exercicio Metodos e Classes", ExerciciosMetodosComRetorno.Executar}
+                {"Metodos com retorono - Classes e Metodos", MetodosComRetorno.Executar},
+                {"Exercicio Metodos e Classes - Classes e Metodos", ExerciciosMetodosComRetorno.Executar},
+                {"Metodos Estáticos - Classes e Metodos", MetodosEstaticos.Executar},
+                {"Parametros - Classes e Metodos", Params.Executar},
+                {"GET e SET - Classes e Metodos", GetSet.Executar},
+                {"GET e SET 2 - Classes e Metodos", GetESetSegundoExemplo.Executar},
+                {"Exercicio 1 GET e SET  - Classes e Metodos", ExGetESet1.Executar},
+                {"Exercicio 2 GET e SET  - Classes e Metodos", ExGetESet2.Executar},
+                {"Exercicio 3 GET e SET  - Classes e Metodos", ExGetESet3.Executar},
+                
 
 
             }); ;

@@ -37,7 +37,7 @@ namespace CursoCSharp.ClassesEMetodos
             public static void Executar()
             {
                 var cliente1 = new Cliente();//new cliente() é um construtor, ele é padrão e não recebe parametro.
-                cliente1.Nome = "Luiz Iñácio";
+                cliente1.Nome = "Luiz Iñácio";  
                 cliente1.Cpf = "50564978962";
                 cliente1.Sexo = "M";
                 cliente1.Endereço = "Vila Pires";

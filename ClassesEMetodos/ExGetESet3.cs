@@ -27,19 +27,19 @@ namespace CursoCSharp.ClassesEMetodos
 
 
             Console.WriteLine("Informe o nome de uma animal de estimação: ");
-            var nome = Console.ReadLine();
+            animal.Nome = Console.ReadLine();
             Console.WriteLine("Informe o tipo de uma animal de estimação: ");
-            var tipo = Console.ReadLine();
-            if (tipo == "Cachorro" && tipo == "Gato" && tipo == "Ave")
+            animal.Tipo = Console.ReadLine();
+            if (animal.Tipo != "Cachorro" && animal.Tipo != "Gato" && animal.Tipo != "Ave" && animal.Tipo != "cachorro" && animal.Tipo != "gato" && animal.Tipo != "ave")
             {
-                Console.WriteLine($"O nome do animal é {nome} e o tipo dele é {tipo}");
+                animal.Tipo = "ave";
+                Console.WriteLine($"O nome do animal é {animal.Nome} e o tipo dele é {animal.Tipo}");
             }
             else
             {
-                tipo = "Ave";
-                Console.WriteLine($"O nome do animal é {nome} e o tipo dele é {tipo}");
+                Console.WriteLine($"O nome do animal é {animal.Nome} e o tipo dele é {animal.Tipo}");
             }
-
+            
 
            
 

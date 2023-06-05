@@ -25,7 +25,7 @@ namespace CursoCSharp.Colecoes
             Console.WriteLine(fila.Dequeue());//removendo o primeiro elemento da fila
             Console.WriteLine(fila.Count());
 
-            foreach (var pessoa in fila)
+            foreach (var pessoa in fila)// verificando se há elementos na fila
             {
                 Console.WriteLine(pessoa);
             }

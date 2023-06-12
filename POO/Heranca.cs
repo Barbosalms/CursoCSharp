@@ -49,10 +49,36 @@ namespace CursoCSharp.POO
             }
         }
 
+        public class Uno : Carro {  
+            public Uno() : base(200)
+            {
+
+            }
+        }
+
+        public class GolfãoRebaixado : Carro
+        {
+            public GolfãoRebaixado() : base(500)
+            {
+
+            }
+        }
+
+
 
         public static void Executar()
         {
+            Console.WriteLine("Uno");
+            Uno carro1 = new Uno();
+            Console.WriteLine(carro1.Acelerar());
+            Console.WriteLine(carro1.Acelerar());
+            Console.WriteLine(carro1.Frear());
 
+            Console.WriteLine("Golfão");
+            Uno carro2 = new Uno();
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Acelerar());
+            Console.WriteLine(carro2.Frear());
         }
     }
 }

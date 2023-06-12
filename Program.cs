@@ -43,11 +43,10 @@ namespace CursoCSharp {
                 {"Stack (pilha) - Colecoes", ColecoesStack.Executar},
                 //POO
                 {"Herança - POO", Heranca.Executar },
-
-
-
-
-
+                {"Construtor This - POO", ConstrutorThis.Executar },
+                {"Encapsulamento - POO", Encapsulamento.Executar },
+                {"Polimorfismo - POO", Polimorfismo.Executar },
+                {"Exercicio     Polimorfismo - POO", ExercicioPolimorfismo.Executar },
             }); ;
 
             central.SelecionarEExecutar();
